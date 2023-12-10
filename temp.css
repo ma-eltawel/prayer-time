@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+body{
+    direction: rtl;
+    color: white;
+    min-height: 95.9vh;
+    font-family: 'Tajawal', sans-serif;
+    background: linear-gradient(45deg, #240165, #05001c) no-repeat;
+}
+.head{
+    margin: 20px 80px;
+}
+.head h1{
+    font-size: 120px;
+    font-weight: 500;
+    margin: 0;
+}
+.head span{
+    font-size: 40px;
+    font-weight: 300;
+}
+hr{
+    margin: 0 60px;
+    border-color: #5200f1;
+}
+.times{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 30px;
+    margin: 50px 65px;
+}
+.card{
+    font-size: 20px;
+    height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 5px rgb(0, 0, 0, 0.3);
+}
+.title{
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #5808ee, #6a48bf);
+}
+.title h3{
+    font-weight: 400;
+    margin: 0;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.body h5{
+    font-size: 36px;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 65px;
+}
+select{
+    color: white;
+    font-size: 22px;
+    font-family: inherit;
+    width: 260px;
+    padding: 5px 8px;
+    background: none;
+    border-radius: 20px;
+}
+option{
+    color: black;
+}
+@media (max-width: 890px) {
+    .head h1{
+        font-size: 80px;
+    }
+}
+@media (max-width: 620px) {
+    .head h1{
+        font-size: 50px;
+    }
+    .head span{
+        font-size: 24px;
+    }
+}
+@media (max-width: 450px) {
+    .head{
+        text-align: center;
+    }
+    .head h1{
+        font-size: 35px;
+    }
+    .head span{
+        font-size: 18px;
+    }
+}
